@@ -8,7 +8,6 @@ export const ContactList = ({ listContacts, onDelete }) => {
           <p>{name}</p>
           <p>{number}</p>
           <BtnDeleteContact onClick={() => onDelete(id)}>
-            {' '}
             Delete
           </BtnDeleteContact>
         </ListItem>
@@ -16,5 +15,3 @@ export const ContactList = ({ listContacts, onDelete }) => {
     </List>
   );
 };
-
-//
